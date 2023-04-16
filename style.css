@@ -1,0 +1,103 @@
+body{
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Lexend Deca', sans-serif; */
+}
+.main_div{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: centre;
+    background-color: hsl(233, 47%, 7%);
+}
+.sub_div{
+    width: 10000px;
+    height: 400px;
+    display: flex;   
+}
+.inner_div_1{
+    width: 600px;
+    height: 400px;
+    background-color: hsl(244, 38%, 16%);
+    margin-left: 150px;   
+}
+.text_1{
+    color: hsl(0, 0%, 100%);
+    margin-left: 20%;
+    margin-top: 10%;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-family: 'Lexend Deca';
+    font-weight: 700;
+}
+.insight_div{
+    color: hsl(277, 64%, 61%);
+}
+.text_2{
+    color:hsla(0, 0%, 100%, 0.6);
+    margin-left: 20%;
+    margin-top: 5%;
+    font-size: smaller;
+    word-spacing: 1px ;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.figure_1{
+    color: hsl(0, 0%, 100%);
+    margin-left: 120px;
+    margin-top: 40px;
+    font-weight: 700;
+    float: left;
+    font-size: large;
+}
+.figure_2{
+    color: hsl(0, 0%, 100%);
+    margin-right: 320px;
+    margin-top: 40px;
+    float: right;
+    font-weight: 700;
+    font-size: larger;
+}
+.figure_3{
+    color: hsl(0, 0%, 100%);
+    margin-right: -170px;
+    margin-top: 40px;
+    float: right;
+    font-weight: 700;
+    font-size: larger;
+}
+.under_1{
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-top: 70px;
+    margin-left: -40px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 350px;
+    float: left;
+}
+.under_2{
+    color:  hsla(0, 0%, 100%, 0.6);
+    margin-top: 70px;
+    margin-right: -75px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 350px;
+    float: right;
+}
+.under_3{
+    color:  hsla(0, 0%, 100%, 0.6);
+    margin-top: -10px;
+    margin-right: 170px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 350px;
+    float: right;
+}
+.inner_div_2{
+    width: 600px;
+    height: 400px; 
+    background: linear-gradient(0deg, rgba(54, 3, 102, 0.49), rgba(49, 8, 88, 0.49)), url(./images/image-header-desktop.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
